@@ -19,3 +19,7 @@ Everything else — the Python/PowerShell tools, Ghidra scripts, tests, the new 
 ## Referenced third-party sources
 
 Research notes cite and link (but do not copy) the [HDZero VTX build script](https://github.com/hd-zero/hdzero-vtx) for the receiver payload bit permutation, the [HDZero Programmer](https://github.com/hd-zero/hdzero-programmer) for the update container and CH341 routing, the MIT-licensed [HDZero Goggle firmware](https://github.com/hd-zero/hdzero-goggle) and the [Ripples Goggle fork](https://github.com/LVTY-AI/hdzero-goggle) for design references, and Winbond/WCH/Gowin/Pico datasheets.
+
+## AI assistance
+
+This project was developed with substantial assistance from AI coding agents: OpenAI Codex (research, Ghidra/emulation tooling, backups, the recovered source build and Favorites candidates up to v4) and Anthropic Claude via Claude Code (recovery-route measurements, the receiver-only flash tool, all physical flashing sessions and Favorites v5–v7). The project owner directed the work, performed all physical handling and approved every write to the device.
