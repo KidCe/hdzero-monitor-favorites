@@ -1,0 +1,9 @@
+/artifacts/device-backups/
+/artifacts/ghidra/
+/artifacts/firmware-analysis/
+/.codex-remote-attachments/
+__pycache__/
+*.pyc
+/dist/
+/CLAUDE_HANDOFF.md
+/install-logs/

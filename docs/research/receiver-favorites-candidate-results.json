@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-09",
+  "target": "HDZero Monitor 1R3 / 1.1.1",
+  "analysis_only": true,
+  "hardware_access": false,
+  "installable_update": false,
+  "input_sha256": "ca65d71948658569f02715e312d62cf10742cac10ffca4271ee933210c5a5652",
+  "candidate_sha256": "7dba09cf8a62394e90df8a85917918c8fa187899afee4803ed6f6a7d723a1e81",
+  "candidate_bytes": 62346,
+  "changed_original_bytes": 49,
+  "replacement_spans": 20,
+  "appended_bytes": 343,
+  "favorites": [
+    "L6",
+    "L7",
+    "R1",
+    "R2",
+    "F2",
+    "F4",
+    "R7",
+    "R8"
+  ],
+  "display_labels": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8"
+  ],
+  "candidate_instruction_checks": 1629,
+  "stock_instruction_checks": 221,
+  "python_host_tests": 27,
+  "candidate_report": "artifacts/firmware-analysis/candidate-run-20261009-180014-912/candidate-tests.json",
+  "stock_report": "artifacts/firmware-analysis/receiver-run-20261009-173758-105/selection-tests.json",
+  "unverified": [
+    "Availability and loading of appended CODE data on the device",
+    "Indirect selection aliases and computed control-flow completeness",
+    "Full peripheral transactions, persistence and receiver mode behavior",
+    "Update-container integrity, hardware recovery and physical operation"
+  ],
+  "limits": "Independent fragments; full RF transactions, integrated boot, scan behavior and recovery are not simulated.",
+  "historical_candidate_version": 2,
+  "superseded_by": "docs/research/receiver-settings-scan-results.json"
+}

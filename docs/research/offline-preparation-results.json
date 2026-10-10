@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-09",
+  "scope": "Focused offline mode/loading audit, receiver-only flash/restore simulation and read-preflight preparation",
+  "focused_offline_batch_complete": true,
+  "hardware_access": false,
+  "firmware_changed": false,
+  "feature_acceptance": false,
+  "ready_for_device_use": false,
+  "candidate_version": 4,
+  "receiver_decoded_sha256": "7c4970a56cc56618c0d3979942cbe0c76a57d3f4191bf8a06ab57b39c5a6eb16",
+  "candidate_package_sha256": "06edaccf86a6f3ae7e6de0146e54027bc7a4de2372436fcb6d22213d4de2d12b",
+  "host_tests": 47,
+  "flash_plan_tests": 13,
+  "receiver_preflight_tests": 7,
+  "existing_candidate_cpu_checks": 5735,
+  "existing_startup_comparison_checks": 4,
+  "mode_audit": {
+    "literal_selection_references": 42,
+    "bounded_selection_writes": 12,
+    "computed_jump_tables": 5,
+    "capability_consumers_relocated": 5,
+    "new_demonstrated_favorites_defect": false,
+    "evidence": "artifacts/firmware-analysis/20261009-offline-final/consumer-audit-pinned.json"
+  },
+  "loading_audit": {
+    "candidate_bytes": 62398,
+    "official_v120_bytes": 63159,
+    "official_v120_code_extent_beyond_candidate": 761,
+    "device_loading_verified": false,
+    "device_integrity_verified": false,
+    "evidence": "artifacts/firmware-analysis/20261009-offline-final/loading-integrity.json"
+  },
+  "flash_simulation": {
+    "native_transport_implemented": false,
+    "physical_recovery_validated": false,
+    "targets": ["5680"],
+    "erase_range": [0, 65536],
+    "favorites_program_pages": 244,
+    "restore_program_pages": 243,
+    "favorites_full_array_sha256": "e3f54fe342ee806812d8da887c94cef8633480e9d48fbdb4763ce603c27d0634",
+    "restored_full_array_sha256": "fb35263f0bc62cc1a43889da4313af3ace756c086aad8ef69d4bc6ed515b4055",
+    "full_arrays_match": true,
+    "interrupted_state_restore_tested_locally": true,
+    "evidence_directory": "artifacts/firmware-analysis/20261009-receiver-flash-plan"
+  },
+  "next_device_step": "User returns and starts a read-only receiver status/SFDP/two-full-array preflight",
+  "usb_action_scheduled": false,
+  "remaining_boundaries": [
+    "Native diagnostic additions have only fake-transport tests; actual status/SFDP needs acquisition",
+    "Finalize native write adapter after actual parameter and recovery evidence",
+    "ROM CODE loading and any device-side integrity enforcement remain unknown",
+    "Real reception, mode transitions, display, recording and saved-state retention remain untested",
+    "Generic pointer propagation, unresolved code and complete peripheral simulation are not exhaustive"
+  ]
+}

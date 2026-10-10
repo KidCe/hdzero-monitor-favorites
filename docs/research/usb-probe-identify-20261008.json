@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "2026-10-08T21:56:30.406556+00:00",
+  "source": "https://github.com/hd-zero/hdzero-programmer/blob/85a497e5b258e1bd1137e39668e078c02f895668/ch341.py",
+  "dll_sha256": "7d7dd5405b88b2b0140fbc07251ced4f9774b81d0fcf45d59fa92222f4420971",
+  "mode": "usb_descriptor_only",
+  "baseline_version": null,
+  "flash_mutation_commands_implemented": false,
+  "targets": {},
+  "usb": {
+    "vid": "0x1A86",
+    "pid": "0x5512",
+    "descriptor_hex": "12011001ff000208861a1255040300020001"
+  },
+  "cleanup_success": true,
+  "success": true
+}

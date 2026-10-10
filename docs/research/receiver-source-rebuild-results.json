@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-09",
+  "target": "HDZero Monitor 1R3 / 1.1.1",
+  "hardware_access": false,
+  "device_validated": false,
+  "ready_for_device_use": false,
+  "stock_decoded_sha256": "ca65d71948658569f02715e312d62cf10742cac10ffca4271ee933210c5a5652",
+  "favorites_decoded_sha256": "7dba09cf8a62394e90df8a85917918c8fa187899afee4803ed6f6a7d723a1e81",
+  "instruction_count": 28350,
+  "recovered_receiver_instruction_bytes": 48283,
+  "receiver_instruction_coverage_percent": 77.872,
+  "python_host_tests": 27,
+  "candidate_instruction_checks": 1629,
+  "favorites_container_sha256": "2671445f1f2cd650086ea344ecc77f219c90a32551c164f699317aff6f76adea",
+  "favorites_container_bytes": 8275816,
+  "original_file_parser_accepts": true,
+  "projected_arrays": {
+    "5680": {
+      "array_bytes": 1048576,
+      "sha256": "af559f787e88a727eb461d4c7da435f56dee69e8632a9e131f347262bb704ca7",
+      "changed_bytes": 392,
+      "erase_bytes": 65536,
+      "programmed_page_bytes": 62464,
+      "same_as_backup": false
+    },
+    "fpga": {
+      "array_bytes": 16777216,
+      "sha256": "a4b2b1cec69c5d042af51a439c472c127abf0c3d6f5ee9a8006956e212c6c36a",
+      "changed_bytes": 0,
+      "erase_bytes": 917504,
+      "programmed_page_bytes": 907520,
+      "same_as_backup": true
+    },
+    "8339": {
+      "array_bytes": 16777216,
+      "sha256": "68ffa3d3a94058e8e605a9f48179305502893c4c426706525aac4e1df5f9e887",
+      "changed_bytes": 0,
+      "erase_bytes": 7340032,
+      "programmed_page_bytes": 7306240,
+      "same_as_backup": true
+    }
+  },
+  "scope_limits": [
+    "Receiver assembly only; MStar and FPGA source not reconstructed",
+    "Unknown appended CODE loading and device-side integrity",
+    "Full mode/scan/persistence/RF and independent recovery not validated"
+  ],
+  "candidate_report": "artifacts/firmware-analysis/candidate-run-20261009-180014-912/candidate-tests.json",
+  "historical_candidate_version": 2,
+  "superseded_by": "docs/research/receiver-settings-scan-results.json"
+}

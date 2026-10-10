@@ -1,0 +1,28 @@
+{
+  "analysis_date": "2026-10-08",
+  "scope": "Official release assets; no device flash readback",
+  "container_header_bytes": 14,
+  "releases": {
+    "1.1.1": {
+      "url": "https://github.com/hd-zero/monitor/releases/download/v1.1.1/HDZero_Monitor.bin",
+      "length": 8275473,
+      "sha256": "6b7f7cd53be329eaa4059b7b40c2e3e8f2fad1d8ecd94bfe0cb7a228131f7041",
+      "components": {
+        "5680": { "offset": 14, "length": 62003, "sha256": "5d9b0f661eab91ffebf1bc978941e783b0c7ecf87c13aa768b4c1922fcb8877c" },
+        "fpga": { "offset": 62017, "length": 907418, "sha256": "8a2e602f9f922af7dd293dcc37e1e20e8eece36bb010badef072603acabcdbdb" },
+        "8339": { "offset": 969435, "length": 7306038, "sha256": "ccae315a799a3f9ebc46ef0516585361a9b3daea7c0b6331eaba151220db80b9" }
+      }
+    },
+    "1.2.0": {
+      "url": "https://github.com/hd-zero/monitor/releases/download/v1.2.0/HDZero_Monitor.bin",
+      "length": 8276629,
+      "sha256": "3db0a81fe43869085b5455031c34bc69f19c998606c2fedf4085eb150fac8725",
+      "components": {
+        "5680": { "offset": 14, "length": 63159, "sha256": "f82038899d76f4690cdd409d4330b12cd8886ac5ae9771e38de06e5c1fef3366" },
+        "fpga": { "offset": 63173, "length": 907418, "sha256": "8a2e602f9f922af7dd293dcc37e1e20e8eece36bb010badef072603acabcdbdb" },
+        "8339": { "offset": 970591, "length": 7306038, "sha256": "ccae315a799a3f9ebc46ef0516585361a9b3daea7c0b6331eaba151220db80b9" }
+      }
+    }
+  },
+  "component_bytes_equal": { "5680": false, "fpga": true, "8339": true }
+}

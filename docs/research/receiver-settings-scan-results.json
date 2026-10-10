@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-09",
+  "target": "HDZero Monitor 1R3 / 1.1.1",
+  "candidate_version": 4,
+  "hardware_access": false,
+  "device_validated": false,
+  "ready_for_device_use": false,
+  "feature_acceptance": false,
+  "decoded_sha256": "7c4970a56cc56618c0d3979942cbe0c76a57d3f4191bf8a06ab57b39c5a6eb16",
+  "decoded_bytes": 62398,
+  "changed_original_bytes": 55,
+  "replacement_spans": 22,
+  "table_extension_bytes": 343,
+  "new_guard_bytes": 52,
+  "new_guard_ram_bytes": 0,
+  "candidate_instruction_checks": 5735,
+  "connected_session_checks": 1152,
+  "startup_comparison_checks": 4,
+  "startup_state_equal": true,
+  "startup_report": "artifacts/firmware-analysis/startup-run-20261009-184329-159/comparison.json",
+  "stock_instruction_checks": 221,
+  "python_host_tests": 47,
+  "flash_plan_tests": 13,
+  "receiver_read_preflight_tests": 7,
+  "offline_followup": "docs/research/receiver-flash-restore-preparation-20261009.md",
+  "candidate_report": "artifacts/firmware-analysis/candidate-run-20261009-182947-828/candidate-tests.json",
+  "stock_report": "artifacts/firmware-analysis/receiver-run-20261009-184444-169/selection-tests.json",
+  "favorites_container_sha256": "06edaccf86a6f3ae7e6de0146e54027bc7a4de2372436fcb6d22213d4de2d12b",
+  "favorites_container_bytes": 8275868,
+  "package_path": "artifacts/firmware-analysis/20261009-scan-guard/favorites-package-v4/HDZero_Monitor-favorites-UNVALIDATED.bin",
+  "original_file_parser_accepts": true,
+  "projected_arrays": {
+    "5680": {
+      "array_bytes": 1048576,
+      "sha256": "e3f54fe342ee806812d8da887c94cef8633480e9d48fbdb4763ce603c27d0634",
+      "changed_bytes": 450,
+      "erase_bytes": 65536,
+      "programmed_page_bytes": 62464,
+      "same_as_backup": false
+    },
+    "fpga": {
+      "array_bytes": 16777216,
+      "sha256": "a4b2b1cec69c5d042af51a439c472c127abf0c3d6f5ee9a8006956e212c6c36a",
+      "changed_bytes": 0,
+      "erase_bytes": 917504,
+      "programmed_page_bytes": 907520,
+      "same_as_backup": true
+    },
+    "8339": {
+      "array_bytes": 16777216,
+      "sha256": "68ffa3d3a94058e8e605a9f48179305502893c4c426706525aac4e1df5f9e887",
+      "changed_bytes": 0,
+      "erase_bytes": 7340032,
+      "programmed_page_bytes": 7306240,
+      "same_as_backup": true
+    }
+  },
+  "decoder_blank_lookahead_bytes": 16,
+  "scope_limits": [
+    "Bounded fragments, connected CPU sessions and C-runtime startup; no boot-ROM loading or bus persistence",
+    "Forced internal scan flags still enter stock scan",
+    "Receiver assembly only; MStar and FPGA source not reconstructed",
+    "Device CODE loading, RF reception and independent recovery not validated"
+  ]
+}

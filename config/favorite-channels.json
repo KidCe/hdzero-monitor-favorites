@@ -1,0 +1,13 @@
+{
+  "name": "Favorites",
+  "channels": [
+    { "band": "L", "channel": 6 },
+    { "band": "L", "channel": 7 },
+    { "band": "R", "channel": 1 },
+    { "band": "R", "channel": 2 },
+    { "band": "F", "channel": 2 },
+    { "band": "F", "channel": 4 },
+    { "band": "R", "channel": 7 },
+    { "band": "R", "channel": 8 }
+  ]
+}
